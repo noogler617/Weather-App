@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather API</title>
+	<link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../weather/style.css">
+
+</head>
+<body>
+
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <a href="#" class="navbarbrand">Current local Weather</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" id="toggle"><span class="glyphicon glyphicon-cloud"></span> Celsius/Fahrenheit</a></li>
+      </ul>
+    </nav>
+    <div class="spacer"></div>
+    <div class="block">
+      <h1 class="text-center"><span id="currentWeather"></span></h1>
+      <h1 class="text-center"><span id="currentTemp"></span></h1><br>Country: <span id="country"></span><br><span id="city"></span><br>Latitude: <span id="latitude"></span><br>Longitude: <span id="longitude"></span><br> 
+    
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="../Bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="../weather/weather.js"></script>
+</body>
+</html>
